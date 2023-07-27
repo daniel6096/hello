@@ -1,0 +1,11 @@
+Description: Add testing.sh
+ This script prints "this is a test from Daniel Hung" on the standard error (STDERR)
+ .
+ hello (2.10-2ubuntu5) jammy; urgency=medium
+ .
+Author: Daniel Hung <duck4011@gmail.com>
+--- /dev/null
++++ hello-2.10/src/testing.sh
+@@ -0,0 +1,2 @@
++#!/bin/bash
++echo "this is a test from Daniel Hung" 1>&2

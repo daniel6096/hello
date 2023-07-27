@@ -1,3 +1,11 @@
+hello (2.10-2ubuntu5) jammy; urgency=medium
+
+  * debian/patches: add testing.sh
+  * debian/install: put testing.sh into /usr/bin
+  * debian/postinst: run testing.sh during installation
+
+ -- Daniel Hung <duck4011@gmail.com>  Thu, 27 Jul 2023 10:40:32 +0800
+
 hello (2.10-2ubuntu4) jammy; urgency=medium
 
   * No-change rebuild for ppc64el baseline bump.
