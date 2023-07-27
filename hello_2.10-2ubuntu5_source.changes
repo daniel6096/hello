@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 27 Jul 2023 10:40:32 +0800
+Source: hello
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 2.10-2ubuntu5
+Distribution: jammy
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Daniel Hung <duck4011@gmail.com>
+Changes:
+ hello (2.10-2ubuntu5) jammy; urgency=medium
+ .
+   * debian/patches: add testing.sh
+   * debian/install: put testing.sh into /usr/bin
+   * debian/postinst: run testing.sh during installation
+Checksums-Sha1:
+ 8c1665a2274f2b28ee43755fa1e5c7d175870ce7 1664 hello_2.10-2ubuntu5.dsc
+ 4744088ba179e3cb2fa4160ae9e40099bea9fadf 7180 hello_2.10-2ubuntu5.debian.tar.xz
+ 77438ac5fc93929a47722c75b39b9ee7fef9d54b 6479 hello_2.10-2ubuntu5_source.buildinfo
+Checksums-Sha256:
+ ce8e5246ae0ca9fb74ad6f35f6572a34c106cf09566f95469427520f47089e05 1664 hello_2.10-2ubuntu5.dsc
+ 7a2d968dc65c9925b601e685db8acfe3c462a929cc02ba2629e44df2938eea25 7180 hello_2.10-2ubuntu5.debian.tar.xz
+ 2c76afed38974afb10c4acc9e748e6a7c5973f2cff7c419a527a9e85a0a9e982 6479 hello_2.10-2ubuntu5_source.buildinfo
+Files:
+ 119f476b939d0aff6436d692e3560299 1664 devel optional hello_2.10-2ubuntu5.dsc
+ 393f58c4bc83a32078de86f866125888 7180 devel optional hello_2.10-2ubuntu5.debian.tar.xz
+ ebd35dc5e18c5680e0c02868c58d453f 6479 devel optional hello_2.10-2ubuntu5_source.buildinfo
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHHBAEBCgAxFiEEFPumSjj0oQdx8PTA+TuYrReTuzwFAmTB21oTHGR1Y2s0MDEx
+QGdtYWlsLmNvbQAKCRD5O5itF5O7POJzC/0WjYC5P0SW/rzn2aLSIKJECiLK6SMk
+wubNS4ZOGYe8S0Tnocdue7jzoFIS9t7hAYxEczSTBDcIMpLnbDWWDY1878xBvfzc
+h5IvAjxeBHqgpRuU9ydb2vrkBQu2/1MlGYeaODIF1zU4EVxJETm81ZYhNTjl1NY7
+th7wI+Cl0CMjpSaBUakc2prEZzt9UCuwGQ9wON8OYqARe62eXeoOJaIc9ZFjFSrE
+HbLSkoQsXdfch3+5V+mSeb1juQl25E/12AoXTWM2rPK0Bk2YdK/rMTFbzMfk/xlm
+eeX1Iq5KuZ2T3y4pcM6Zt/opKbBwDQz05nZ6QTMK1tpFnLIzmBlbJ/Wm9F8l3I13
+F24adEJFjtLklvJuR/vpHWD84gR0ORS5OC4CIWK66l6Djkk7tR7TQa7FacTANTi8
+r5NMnZYJHI3KWT7ps7BiwNWSKd+riWnbS6xvPxt2tQoik6CaSLVEuSKu0yRKExr9
+THl0TwzB3n4zhc1wYo0pgjT6G8XHf8uOyKc=
+=2mcv
+-----END PGP SIGNATURE-----
